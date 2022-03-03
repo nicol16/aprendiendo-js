@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    
+
+<!--Resumen 9-->
+<!-- <form name="calculadora">
+     Ingrese temperatura °C = <input type="text" name="valor1"><br><br>
+   
+
+    <input type="button" name="button1" value="Cambiar a fahrenheit" onclick="calcular()">
+   <br><br>
+
+    Resultado = <input type="text" name="resultado">
+
+    <br><br>
+
+    <p id="f"></p>
+
+</form> -->
+
+
+
+
+<!--Resumen 10.2-->
+<!-- 
+<form name="calculadora">
+    Ingrese temperatura °F = <input type="text" name="valor1"><br><br>
+  
+
+   <input type="button" name="button1" value="Cambiar a Celsius" onclick="calcular()">
+  <br><br>
+
+   Resultado = <input type="text" name="resultado">
+
+   <br><br>
+
+   <p id="f"></p>
+
+</form> -->
+
+
+<!--Resumen 10-->
+<!-- 
+<h2>Conversor de Temperaturas</h2>
+<input type="text" name="tempEntrada" id="tempEntrada">
+<input type="button" value="Pasar a Fahrenheit" onclick="toFahrenheit()">
+<input type="button" value="Pasar a Celsius" onclick="toCelsius()"><br>
+<div id="Zona1"></div>
+<div id="Zona2"></div>
+<div id="Zona3"></div> -->
+
+
+
+
+<!--Common JS-->
+
+<!-- 
+<h3>Clase Entrada Datos</h3>
+<form name="formEntrada">
+
+    <input type="text" name="txtInicial">
+<input type="button" value="Pulsa Aqui" onclick="programa()">
+
+</form> -->
+
+<!--Proyecto Menu-Slide-->
+<!-- 
+<div class="slide-menu">
+
+  <nav class="menu">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">Blog</a></li>
+     <li><a href="#">Contacto</a></li>
+  </nav>
+</div>
+
+ <div class="contenedor">
+     <div class="encabezado">
+         <h1>&equiv;      Transitions</h1>
+     </div>
+
+     <h2>Texto e Informacion de la web</h2>
+ </div> -->
+
+
+ <!--Responsive Design-->
+
+ <div class="gridcontainer">
+     <div class="gridwrapper">
+         <div class="gridbox gridheader">
+            <div class="header">
+                <h1>The Pulpit Rock</h1>
+            </div>
+         </div>
+
+         <div class="gridbox gridmenu">
+             <div class="menuitem">The Drive</div>
+             <div class="menuitem">The Walk</div>
+             <div class="menuitem">The Return</div>
+             <div class="menuitem">The End</div>
+         </div>
+         <div class="gridbox gridmain">
+             <div class="main">
+                 <h1>The Walk</h1>
+                 <p>The walk to the Pulpit Rock will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+                 <img src="pulpitrock.jpg" alt="Pulpit Rock" width="" height="">
+             </div>
+         </div>
+
+
+         <div class="gridbox gridright">
+             <div class="right">
+                 <h2>What?</h2>
+                 <p>The Pulpit Rock is a part of a mountain that looks like a pulpit.</p>
+                 <h2>Where?</h2>
+                 <p>The pulpit rock is in norway</p>
+                 <h2>Price?</h2>
+                 <p>The walk is free!</p>
+             </div>
+         </div>
+
+         <div class="gridbox gridffoter">
+             <div class="footer">
+                 <p>This web page is a part of a demonstration of fluid web design made by www.w3schools.com. Resize the browser window to see the content response to the resizing.</p>
+             </div>
+         </div>
+     </div>
+
+ </div>
+
+    <script>
+
+
+        //Resumen 9
+
+        // function sumar(){
+        //     let num1, num2, res;
+
+        //      num1 = parseInt(document.calculadora.valor1.value);
+        //      num2 = parseInt(document.calculadora.valor2.value);
+        //      res = num1 + num2;
+        //      document.calculadora.resultado.value = res;
+        // }
+
+        // function restar(){
+        //     let num1, num2, res;
+
+        //      num1 = parseInt(document.calculadora.valor1.value);
+        //      num2 = parseInt(document.calculadora.valor2.value);
+        //      res = num1 - num2;
+        //      document.calculadora.resultado.value = res;
+        // }
+
+        // function multiplicar(){
+        //     let num1, num2, res;
+
+        //      num1 = parseInt(document.calculadora.valor1.value);
+        //      num2 = parseInt(document.calculadora.valor2.value);
+        //      res = num1 * num2;
+        //      document.calculadora.resultado.value = res;
+        // }
+
+        // function dividir(){
+        //     let num1, num2, res;
+
+        //      num1 = parseInt(document.calculadora.valor1.value);
+        //      num2 = parseInt(document.calculadora.valor2.value);
+        //      res = num1 / num2;
+        //      document.calculadora.resultado.value = res;
+        // }
+
+
+      //Resumen 9.2
+
+    //   function calcula(operacion){
+    //       var num1;
+    //       var num2;
+    //       var res;
+
+    //       num1 = parseInt(document.calculadora.valor1.value);
+    //       num2 = parseInt(document.calculadora.valor2.value);
+
+    //       if(operacion == 1) res = num1 + num2;
+    //       if(operacion == 2) res = num1 - num2;
+    //       if(operacion == 3) res = num1 * num2;
+    //       if(operacion == 4) res = num1 / num2;
+
+    //       document.calculadora.resultado.value = res;
+    //       }
+
+
+    //Resumen 10
+
+
+    // function calcular(){
+    //     let valor1, res;
+    //     let txt = '';
+
+    //     valor1 = parseInt(document.calculadora.valor1.value);
+
+    //     res = (1.8 * valor1) + 32 +'°F';
+
+    //     document.calculadora.resultado.value = res;
+
+
+  
+    //    if(res < 14){
+          
+    //        document.write(res, ' , La temperaturs es desconocida');
+         
+    //    }
+    //    else{
+    //        if(res <= 32){
+              
+    //            document.write(res, ' , La temperatura es baja');
+    //        }
+    //        else{
+    //            if(res <= 68){
+             
+    //                document.write(res, ' , La temperatura es adecuada');
+    //            }
+    //            else{
+    //                if(res <= 96){
+                    
+    //                    document.write(res,' , La temperatura es alta');
+    //                }
+    //                else{
+                       
+    //                    document.write(res,' , La temperatura es desconocida');
+    //                }
+    //            }
+    //        }
+    //    }
+                
+    // }
+    
+//Resumen 10.2
+         
+    //  function calcular(){
+    //      let valor1, res;
+    //      let txt = '';
+
+    //      valor1 = parseInt(document.calculadora.valor1.value);
+
+    //      res = (valor1 - 32) / 1.8 +'°C';
+
+    //      document.calculadora.resultado.value = res;
+    //      }
+
+
+ //Resumen 10
+
+// function EntraData(){
+//     let txt = document.getElementById(tempEntrada);
+//     let temp = parseInt(txt.value);
+//     return temp;
+// }
+
+
+// function EscriuData(nomZona, text){
+//     document.getElementById(nomZona).innerHTML = text;
+// }
+
+
+// function toFahrenheit(){
+//     let temp = EntraData();
+//     temp = ((1.8)* temp + 32);
+//     EscriuData('Zona1', temp + '°F');
+//     FraseRelativa(temp);
+// }
+
+// function toCelsius(){
+//     let temp = EntraData();
+//     let temp2 = ((temp - 32)/ 1.8);
+//     EscriuData('Zona1', temp2 + '°C');
+//     FraseRelativa(temp);
+// }
+
+// function FraseRelativa(temperatura){
+//     let cadena = '-';
+//     if ((temperatura >= 14) && (temperatura < 32 )) cadena = 'Temperatura Baja';
+//     if ((temperatura >= 32) && (temperatura < 68 )) cadena = 'Temperatura Adecuada';
+//     if ((temperatura >= 68) && (temperatura <= 96 )) cadena = 'Temperatura Alta';
+//     if (cadena =='-') cadena = 'Temperatura Desconocida';
+//     EscriuData('Zona2', cadena);
+// }
+
+
+
+
+
+//Resumen 11
+
+
+// let num1 = prompt('Introduce un el primer numero=', '0');
+// valor1 = parseInt(num1);
+
+// let num2 = prompt('Introduce un el segundo numero=', '0');
+// valor2 = parseInt(num2);
+
+// let num3 = prompt('Introduce un el tercer numero=', '0');
+// valor3 = parseInt(num3);
+
+
+// if((valor1 > valor2) && (valor1 > valor3)){
+//     alert(`El primer numero es mayor = (${valor1})`);
+// }
+// else{
+//     if((valor2 > valor1) && (valor2 > valor3)){
+//         alert(`El segundo numero es mayor = (${valor2})`);
+// }
+// else{
+//     if((valor3 > valor2) && (valor3 > valor2)){
+//         alert(`El tercer numero es mayor = (${valor3})`);
+// } 
+// }
+// }
+
+
+//Resumen 12
+
+// let dato, altura;
+// dato = prompt('Escribe tu altura en cm', '0');
+// altura = parseInt(dato);
+
+// if(altura > 180) resultado = 'Por encima de la media';
+// else{
+//     if (altura >= 140)
+//     resultado = 'Altura Media';
+//     else
+//     resultado = 'Por debajo de la media';
+// }
+
+// document.write(resultado);
+
+
+//Resumen 13
+
+// let num1, num2, num3;
+// let numA = prompt('Introduce el primer numero:','');
+// let numB = prompt('Introduce el segundo numero:','');
+// let numC = prompt('Introduce el tercer numero:','');
+
+
+// num1 = parseInt(numA); 
+// num2 = parseInt(numB);
+// num3 = parseInt(numC);
+
+
+// if(num1 > num2 && num1 > num3){
+//     document.write(`El mayor es el ${num1}`);
+// }
+// else{
+//     if(num2 > num3){
+//         document.write(`El mayor es el ${num2}`);
+//     }
+//     else{
+//         document.write(`El mayor es el ${num3}`);
+//     }
+// }
+
+
+//Common JS
+
+// function ficha(){
+
+// let alumno = {
+//     nombre: 'Caterina',
+//     edad: 18
+
+// };
+
+// this.verNombre = function(){
+//     return alumno.nombre;
+// }
+
+// this.verEdad = function(){
+//     var resultado = alumno.verEdad;
+//     return resultado;
+// }
+
+// }
+
+
+// function programa(){
+
+//     let obj = new ficha();
+//     document.writeIn(`El nombre es ${obj.verNombre()}<br>`);
+//     document.writeIn(`La edad es ${obj.verEdad()}<br>`);
+
+// }
+
+
+
+//ObjectInterface
+
+// let ficha = (function () {
+
+//     let alumno;
+//     this.alumno = 'Marga';
+
+
+//     return{
+//         inicio(){
+//             this.alumno = 'Norat'
+//         },
+//         verNombre(){
+//             return this.alumno
+//         },
+//     }
+
+// })();
+
+// function programa(){
+
+//     ficha.inicio();
+//     document.writeln(`El nombre es ${ficha.verNombre()}<br>`);
+
+//     //document.writeln(`La edad es ${fciha.verEdad()}<br>`);
+// }
+
+
+//ECMA - Clases 1
+
+// class EntradaDatos{
+//     constructor(){
+//         let nombre;
+//         let password;
+//         this.nombre = 'admin';
+//         this.contrasena = '1234';
+//     }
+
+//     introduceNombre(){
+//         let valorEntrada = document.formEntrada.txtInicial.value;
+
+//         if(this.compruebaNombre(valorEntrada))
+//         this.nombre = valor.Entrada;
+//         else
+//             this.nombre = 'No valido';
+//     }
+
+//     compruebaNombre(valor){
+//         let flag = true;
+//         if (valor == null || valor == '') flag = false;
+//         return flag;
+//     }
+
+//     verNombre(){
+//         return this.nombre;
+//     }
+
+// }
+
+
+// function programa(){
+//     let obj = new EntradaDatos();
+//     obj.introduceNombre();
+//     document.writeln(`El nombre es ${obj.verNombre()}<br>`)
+// }
+
+
+//Proyecto Menu-Slide con programacion JQuery
+
+
+// var toggle = 1;
+
+// $(document).ready(function (){
+
+// $('.encabezado') .click(function(){
+//     if (toggle) {$('.slide-menu').css('transform','translate3d(0,0,0)');
+//      $('.contenedor').css('transform','translate3d(250px,0,0)');
+//      toggle = 0;}
+//      else{
+//         $('.slide-menu').css('transform','translate3d(0,0,0)');
+//         toggle =1;}
+//     });
+    
+    
+// });
+
+
+
+
+</script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</body>
+</html>
