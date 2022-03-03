@@ -11,3 +11,17 @@ git clone "Agregar url" Esto sirve para bajar el repositorio a la computadora ac
  al staging (area intermedia entre el repositorio local y el de la pagina) area
 
  git push: Este comando sirve para publicar los cambios al repositorio de la pagina y este es el paso final
+
+
+ Comandos relacionados a la terminal:
+
+ cd : (Change directory) este comando me permite entrar a la carpeta cuyo nombre se especifique
+
+ Ejemplo: cd caperta-nicol
+
+ cd .. : si deseamos salir de una carpeta utilizamos este comando
+
+ pwd: Nos dice en que directorio estamos ubicados
+
+
+ls: Nos indica todas las carpetas que hay en el directorio actual que estamos 
