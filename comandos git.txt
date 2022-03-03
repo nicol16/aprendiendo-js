@@ -1,0 +1,10 @@
+git clone "Agregar url" Esto sirve para bajar el repositorio a la computadora actual en la que estemos 
+
+ Ejemplo de bajar este repositorio: git clone https://github.com/nicol16/aprendiendo-js.git  
+
+
+ git status: Este comando nos indica cuales archivos han sido agregados, modificados y eliminados
+
+ git add . : Este comando sirve para agregar todos los cambios realizados en nuestro repositorio local
+
+ git commit
