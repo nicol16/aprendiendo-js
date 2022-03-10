@@ -154,9 +154,31 @@
 
 
 
+
+// nombres.map((imprimir)=>{
+//   console.log(`Nombre: ${imprimir}`);
+
+// });
+
+
+
+//hacer una funcion que guarde en un arreglo con el nombre john y hacerlo dentro de una funcion de flechas
+
+
+
+// const sayLocation = (location) => {
+//     console.log(`My location is ${location}`);
+// }
+
+// sayLocation('paris');
+
 const nombres = ['Maria','Pedro','Emma','John','Pablo'];
 
-nombres.map((imprimir)=>{
-  console.log(`Nombre: ${imprimir}`);
 
-});
+const arreglo = (names) => {
+    let names1 = [];
+    console.log(names1 = [names]);  
+   
+} 
+
+arreglo('John');
