@@ -146,3 +146,17 @@
 //  })
 
 //  .catch(err => console.log(err));
+
+
+
+//hacer una funcion que reciba como parametro una arreglo con 5 nombres
+// y que imprima en pantalla cada uno de esos elementos
+
+
+
+const nombres = ['Maria','Pedro','Emma','John','Pablo'];
+
+nombres.map((imprimir)=>{
+  console.log(`Nombre: ${imprimir}`);
+
+});

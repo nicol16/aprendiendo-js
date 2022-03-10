@@ -3,9 +3,10 @@ NOTAS
 -FUNCIONES CON FLECHA: 
 Puedes deshacerte de las () y {} si solo tiene un parametro/delvolvinendo algo.
 
-EJ
+EJ:
 
-con solo un parametro o delvolvinendo una funcion
+
+*con solo un parametro o delvolvinendo una funcion:
 
 const sayLocation = location => 
     console.log('my location is unknown');
@@ -13,7 +14,10 @@ const sayLocation = location =>
 
 sayLocation('paris');
 
-con varios parametros o delvolvinendo varias funciones
+
+
+
+*con varios parametros o delvolvinendo varias funciones:
 
 const sayLocation = (location, name) => {
     console.log('my location is unknown');
@@ -21,6 +25,38 @@ const sayLocation = (location, name) => {
 }
 
 sayLocation('paris');
+
+
+
+
+
+
+-foreach y map hacen practicamente lo mismo
+
+EJ:
+
+       FOREACH
+
+const nombres = ['Maria','Pedro','Emma','John','Pablo'];
+
+nombres.forEach((imprimir)=>{
+  console.log(`Nombre: ${imprimir}`);
+
+});
+
+
+       MAP
+
+const nombres = ['Maria','Pedro','Emma','John','Pablo'];
+
+nombres.map((imprimir)=>{
+  console.log(`Nombre: ${imprimir}`);
+
+});
+
+
+
+
 
 
 
