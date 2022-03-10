@@ -25,3 +25,10 @@ git clone "Agregar url" Esto sirve para bajar el repositorio a la computadora ac
 
 
 ls: Nos indica todas las carpetas que hay en el directorio actual que estamos 
+
+
+mkdir (make directory) Comando utilizado para crear carpetas
+Ejemplo: mkdir nicol
+
+rm -r: Este comando borrar una carpeta con todo su contenido
+Ejemplo rm -r nicol
