@@ -1,0 +1,26 @@
+NOTAS
+
+-FUNCIONES CON FLECHA: 
+Puedes deshacerte de las () y {} si solo tiene un parametro/delvolvinendo algo.
+
+EJ
+
+con solo un parametro o delvolvinendo una funcion
+
+const sayLocation = location => 
+    console.log('my location is unknown');
+
+
+sayLocation('paris');
+
+con varios parametros o delvolvinendo varias funciones
+
+const sayLocation = (location, name) => {
+    console.log('my location is unknown');
+    console.log('Nombre Juan')
+}
+
+sayLocation('paris');
+
+
+
